@@ -7,7 +7,7 @@ import {createSagas, createActions} from './helpers/helper.saga.js';
 import {locale} from "../locale.js";
 
 function* getLocaleSaga({payload = {}}) {
-  yield put(locale(JSON.parse(localStorage.getItem('locale'))));
+  yield put(locale(JSON.parse(localStorage.getItem('locale')) || 'en'));
 }
 
 function* setLocaleSaga({payload = {}}) {
