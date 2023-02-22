@@ -1,0 +1,15 @@
+{
+  "Title is required": "Тайтл обов'язковий",
+  "Title must be minimum 3 characters": "Тайтл повинен містити мінімум 3 символи",
+  "Title must be maximum 255 characters": "Тайтл має бути максимум з 255 символів",
+  "Body is required": "Тіло новини обов'язкове",
+  "Body must be at least 10 characters": "Тіло новини повинно містити мінімум 10 символів",
+  "Body must be maximum 3000 characters": "Тіло новини має бути максимум з 3000 символів",
+  "Close Dialog": "Закрити діалог",
+  "Server Error Create News": "Серверна помилка при створенні новини",
+  "Title News": "Тайтл новини",
+  "Text News": "Текст новини",
+  "Close": "Закрити",
+  "Create News": "Створити новину",
+  "Creating News...": "Створення новини..."
+}

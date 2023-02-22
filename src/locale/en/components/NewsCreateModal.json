@@ -1,0 +1,15 @@
+{
+  "Title is required": "Title is required",
+  "Title must be minimum 3 characters": "Title must be minimum 3 characters",
+  "Title must be maximum 255 characters": "Title must be maximum 255 characters",
+  "Body is required": "Body is required",
+  "Body must be at least 10 characters": "Body must be at least 10 characters",
+  "Body must be maximum 3000 characters": "Body must be maximum 3000 characters",
+  "Close Dialog": "Close Dialog",
+  "Server Error Create News": "Server Error Create News",
+  "Title News": "Title News",
+  "Text News": "Text News",
+  "Close": "Close",
+  "Create News": "Create News",
+  "Creating News...": "Creating News..."
+}
