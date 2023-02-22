@@ -2,6 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://chechaandrey23.github.io/task-react",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
@@ -20,6 +21,7 @@
     "@types/react-router-dom": "^5.3.3",
     "@types/redux-saga": "^0.10.5",
     "axios": "^1.3.3",
+    "gh-pages": "^5.0.0",
     "i18next": "^22.4.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -40,7 +42,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+	"deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
